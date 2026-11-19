@@ -40,6 +40,9 @@ Connect VS Code model access and a different safety-check model. Hosted generati
 and evaluation can cost money and receive authorized project evidence. A safety
 pass does not prove accuracy. Additional local voice/transcription models download separately;
 Linux needs an unlocked supported keyring. Peer networking/firewall approval is optional.
+Linux also needs permitted user namespaces; Ubuntu 24.04 may require an
+administrator-approved AppArmor profile for this AppImage. Killshot refuses
+disabled Chromium sandboxing rather than silently bypassing it.
 
 **Known issue:** Microsoft Foundry appears in the primary connection picker, but
 the runtime still rejects it as primary. Use VS Code as primary for this beta.

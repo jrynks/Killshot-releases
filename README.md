@@ -54,6 +54,9 @@ repository; application source is not published here.
   unlocked GNOME Keyring or KWallet; setup stops if protected storage is unavailable.
   This tester binary uses the Ubuntu 24.04 runtime baseline; older distributions
   may not load its native components.
+  User namespaces must also be permitted. Ubuntu 24.04 may need an
+  administrator-approved AppArmor profile for the specific AppImage. Killshot
+  refuses to run with Chromium sandboxing disabled; do not disable system protections.
 - Have access to a supported model ready. Choose Killshot for VS Code as the
   primary connection, then a different safety evaluator. VS Code also powers
   the live coding workspace. Hosted services can receive task
