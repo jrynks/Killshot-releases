@@ -27,6 +27,12 @@ hosts. Those hosts receive ordinary connection/request metadata.
   universally on-device services.
 - **Peers, exports and backups:** records you explicitly share or export. Copies
   on another device cannot be recalled by deleting your own copy.
+- **Optional project AI sharing:** authorized task evidence, prompts, images,
+  tool context and proposed output can pass through the selected project peer's
+  device and its configured model/evaluator services. The peer's provider
+  credentials are not distributed as part of model requests; this does not
+  prevent the receiving device or its services from processing the task data.
+  Review project AI-sharing controls and the serving provider's terms and charges.
 - **GitHub:** ordinary download/update-check and public-issue metadata. Update
   discovery does not upload project contents. Public issues are public.
 
