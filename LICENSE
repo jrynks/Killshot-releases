@@ -1,0 +1,41 @@
+KILLSHOT EXPERIMENTAL BETA EVALUATION TERMS
+
+This unsigned prerelease is supplied by the Killshot publisher, jrynks, for
+voluntary testing and feedback. Formal launch, legal/privacy and independent
+Responsible AI reviews are pending. It is not a production-qualified release.
+Use fictional or synthetic project material, not personal, confidential,
+regulated or business-critical data.
+
+Permission is granted to install and use this authorized beta for evaluation
+and to make reasonable backup copies. Killshot's proprietary components remain
+the property of their respective rights holders. No application source-code
+license is granted. Do not sell or sublicense the proprietary application.
+Do not redistribute it; direct other testers to the publisher's release page.
+Restrictions do not limit applicable statutory rights or third-party licenses.
+
+You retain rights in your project material. Use only material you are entitled
+to process and share. AI connections, tools and collaborators can receive data
+you authorize; their own terms and charges apply. Review outputs before use.
+A safety-evaluator pass is not an accuracy, privacy or compliance guarantee.
+Feedback is voluntary and does not transfer ownership of your work.
+
+The beta can fail, lose data, change formats or become unavailable. Keep
+independent backups and recovery keys. Updates require your action; downgrade
+compatibility is not promised. Packages are unsigned and may be blocked by
+platform or organizational protections. Do not disable those protections.
+
+Third-party software, libraries and models retain their own licenses. Those
+licenses prevail for their components, including source, modification,
+replacement and relinking rights. See the bundled THIRD_PARTY_NOTICES.txt and
+the release's per-platform third-party-source archives. You may replace the
+separately shipped open-source shared libraries under their applicable terms.
+
+To the extent permitted by applicable law, this beta is provided "AS IS",
+without warranties of merchantability, fitness for a particular purpose,
+non-infringement or uninterrupted operation. To that extent, the publisher
+does not accept liability for losses arising from evaluation. Nothing excludes
+rights or liability that applicable law does not allow to be excluded.
+
+Downloads and non-sensitive support:
+https://github.com/jrynks/Killshot-releases
+Do not include project material, credentials or recovery keys in public issues.
