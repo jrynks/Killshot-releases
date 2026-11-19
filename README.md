@@ -54,11 +54,14 @@ repository; application source is not published here.
   unlocked GNOME Keyring or KWallet; setup stops if protected storage is unavailable.
   This tester binary uses the Ubuntu 24.04 runtime baseline; older distributions
   may not load its native components.
-- Have access to a supported model ready. Choose Killshot for VS Code or Microsoft
-  Foundry as the primary connection, then a different safety evaluator. VS Code is
-  needed for the live coding workspace. Hosted services can receive task
+- Have access to a supported model ready. Choose Killshot for VS Code as the
+  primary connection, then a different safety evaluator. VS Code also powers
+  the live coding workspace. Hosted services can receive task
   evidence and charge for generation and evaluation. Optional provider fallback
   needs separate consent. Not all AI processing is local.
+- **Known model-setup limitation:** Microsoft Foundry appears in the primary
+  picker, but the runtime still rejects it as primary. Use VS Code as primary
+  for this beta.
 - Save the recovery key separately from the operating folder. Additional local voice and
   transcription tools require downloads. Peer networking is optional and may ask
   for firewall approval.

@@ -13,7 +13,7 @@ live VS Code coding workspace. This beta brings together:
 - Chat, Swarm and Assemble for model-assisted product work and conversations.
 - Recording/source review, interruption recovery and permission-controlled sharing.
 - Encrypted local storage, separate recovery keys and portable project backups.
-- VS Code or Microsoft Foundry as the primary model connection, optional consented provider fallback,
+- VS Code as the primary model connection, optional consented provider fallback,
   and a distinct, separately consented safety evaluator.
 
 ## Downloads
@@ -36,10 +36,13 @@ not load its native components.
 
 ## Setup, updates and limits
 
-Connect VS Code or Microsoft Foundry model access and a different safety-check model. Hosted generation
+Connect VS Code model access and a different safety-check model. Hosted generation
 and evaluation can cost money and receive authorized project evidence. A safety
 pass does not prove accuracy. Additional local voice/transcription models download separately;
 Linux needs an unlocked supported keyring. Peer networking/firewall approval is optional.
+
+**Known issue:** Microsoft Foundry appears in the primary connection picker, but
+the runtime still rejects it as primary. Use VS Code as primary for this beta.
 
 Back up projects and save the recovery key before upgrading. Install manually when
 moving from an alpha; the old updater may still point at the private source

@@ -13,12 +13,12 @@ not make data sent to a model service private from that service. Keep your
 recovery key separately; losing both protected access and the key can make
 projects unrecoverable.
 
-Local speech tools and models require downloads from their configured upstream
+Additional local speech tools and models require downloads from their configured upstream
 hosts. Those hosts receive ordinary connection/request metadata.
 
 ## What can leave your device
 
-- **Your primary connection (VS Code or Microsoft Foundry) and model service:** authorized prompts, project/source
+- **Your primary VS Code connection and model service:** authorized prompts, project/source
   evidence, images or frames, tool context and generated responses.
 - **Your separately consented safety evaluator:** task evidence and proposed
   output/tool arguments, plus images when separately authorized.
