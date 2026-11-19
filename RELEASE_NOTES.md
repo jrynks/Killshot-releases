@@ -38,7 +38,7 @@ not load its native components.
 
 Connect VS Code or Microsoft Foundry model access and a different safety-check model. Hosted generation
 and evaluation can cost money and receive authorized project evidence. A safety
-pass does not prove accuracy. Local voice/transcription models download separately;
+pass does not prove accuracy. Additional local voice/transcription models download separately;
 Linux needs an unlocked supported keyring. Peer networking/firewall approval is optional.
 
 Back up projects and save the recovery key before upgrading. Install manually when

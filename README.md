@@ -59,7 +59,7 @@ repository; application source is not published here.
   needed for the live coding workspace. Hosted services can receive task
   evidence and charge for generation and evaluation. Optional provider fallback
   needs separate consent. Not all AI processing is local.
-- Save the recovery key separately from the operating folder. Local voice and
+- Save the recovery key separately from the operating folder. Additional local voice and
   transcription tools require downloads. Peer networking is optional and may ask
   for firewall approval.
 
