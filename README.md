@@ -13,8 +13,13 @@ Swarm and Assemble to move the work forward with human review.
 
 ## In this beta
 
-- Artemis-guided practice with fictional evidence and a first-project handoff.
-- Workshop canvases, source readers and Brain provenance.
+- Artemis guides you through 22 short steps in five chapters, from setup to a
+  first-project readiness check. Extra detail is optional.
+- Workshop child-note arrows prefer straight paths and fewer turns around cards,
+  without moving your notes.
+- Global and Project settings group related controls into cards and section tabs.
+  **Change model** opens the primary model picker; the Skills library shows each
+  workflow once in a connected, numbered step path.
 - Model-assisted workshops, research and conversations with visible activity.
 - Recording/transcription review against originals before sharing.
 - A live VS Code connection rather than an exported Build Kit.
@@ -26,15 +31,15 @@ Swarm and Assemble to move the work forward with human review.
 
 ## Downloads
 
-The tester prerelease is **v0.1.0-beta.2** for **Windows x64** and **Linux x64**.
+The tester prerelease is **v0.1.0-beta.3** for **Windows x64** and **Linux x64**.
 macOS, Microsoft Store and Mac App Store distribution are not part of this launch.
 
-Get the installers from the [versioned release](https://github.com/jrynks/Killshot-releases/releases/tag/v0.1.0-beta.2):
+Get the installers from the [versioned release](https://github.com/jrynks/Killshot-releases/releases/tag/v0.1.0-beta.3):
 
 | Platform | Asset |
 | --- | --- |
-| Windows x64 | `Killshot-0.1.0-beta.2-win-x64.exe` |
-| Linux x64 | `Killshot-0.1.0-beta.2-linux-x86_64.AppImage` |
+| Windows x64 | `Killshot-0.1.0-beta.3-win-x64.exe` |
+| Linux x64 | `Killshot-0.1.0-beta.3-linux-x86_64.AppImage` |
 | Verification | `SHA256SUMS.txt` and required third-party notices/materials |
 
 Use the [releases page](https://github.com/jrynks/Killshot-releases/releases),
@@ -55,42 +60,42 @@ repository; application source is not published here.
   than disable protections.
 - On Linux, make the verified AppImage executable and run it. Keep a working,
   unlocked GNOME Keyring or KWallet; setup stops if protected storage is unavailable.
-  This tester binary uses the Ubuntu 24.04 runtime baseline; older distributions
-  may not load its native components.
-  User namespaces must also be permitted. Ubuntu 24.04 may need an
+  The binary uses the Ubuntu 24.04 runtime baseline. Older distributions may not
+  load its native components. User namespaces must also be permitted. Ubuntu 24.04 may need an
   administrator-approved AppArmor profile for the specific AppImage. Killshot
   refuses to run with Chromium sandboxing disabled; do not disable system protections.
-- To configure your own model connection, choose Killshot for VS Code as the
-  primary connection, then a different safety evaluator. VS Code also powers
-  the live coding workspace. Hosted services can receive task
-  evidence and charge for generation and evaluation. Optional provider fallback
-  needs separate consent. Not all AI processing is local.
-- Peers can join without configuring their own model. Shared AI is optional and
-  requires an enabled, available provider. Authorized task evidence and images
-  can be processed on the selected project peer's device and its
+- Choose a primary connection and a different, separately consented safety evaluator.
+  Killshot for VS Code remains the default. Eligible ChatGPT accounts can link in
+  the browser; SuperGrok / X Premium+ device sign-in is experimental, unofficial
+  and subject to provider eligibility or revocation. Enter the code displayed in
+  Killshot only on the provider's verification page. Do not share codes or tokens.
+  Hosted services can receive authorized evidence and charge for generation and
+  evaluation. Applying a primary connection does not authorize fallback.
+- Peers can join without configuring their own model. Project AI sharing is
+  optional. When enabled and selected, task evidence and
+  authorized images can be processed on another project peer's device and its
   configured model/evaluator services. Review sharing controls and those services'
   terms before using it.
-- **Known model-setup limitation:** Microsoft Foundry appears in the primary
-  picker, but the runtime still rejects it as primary. Use VS Code as primary
-  for this beta.
+- If an API-key or custom connection is shown as needing review, check the
+  saved provider and model before relying on it. A listed preset alone does not
+  establish that your account, deployment or plan is ready.
 - Save the recovery key separately from the operating folder. Additional local voice and
   transcription tools require downloads. Peer networking is optional and may ask
   for firewall approval.
 
 ## VS Code extension setup
 
-If using VS Code on this device, install it before creating your first local
-Killshot profile. Killshot includes the platform-specific extension and its
-integrity manifest, installs
+If you plan to use VS Code on this device, install it before creating your first local Killshot profile. Killshot
+includes the platform-specific extension and its integrity manifest, installs
 the verified VSIX automatically, and updates an older extension previously
 installed by that app profile. Normal setup needs no separate VSIX download.
-Retry from **Settings > VS Code** if installation needs attention.
+Retry from **Global settings > Connections & services > Killshot for VS Code** if installation needs attention.
 
 Use normal Copilot Agent chat with `#killshotProjects`, `#killshotReadProject`
 and `#killshotSearchProject`, or an approved MCP client. Do not select
 `@killshot`; that deprecated chat entry is removed in extension 0.1.3.
-Live project context requires Killshot to be open and unlocked.
-If the old entry remains after upgrading, save your work and restart VS Code.
+Live project context requires Killshot to be open and unlocked. If the old chat
+entry remains after upgrading, save your work and restart VS Code.
 
 ## Upgrading and getting help
 
@@ -101,7 +106,7 @@ compatibility is promised. Beta update checks open downloads; they do not silent
 install them.
 
 **Unresolved tester report:** a Windows tester saw **Workspace locked / The local
-service stopped**. Its cause has not been established, and beta.2 does not claim
+service stopped**. Its cause has not been established, and this beta does not claim
 to fix it. This is separate from extension installation. Keep the existing
 workspace; do not delete or recreate it to troubleshoot the extension. Use
 **Show diagnostics folder** in Killshot's system-tray menu to collect startup
@@ -114,7 +119,7 @@ No private support-upload route is established for this tester release.
 ## Third-party components
 
 The release includes per-platform notices and native media source materials, plus
-`Killshot-0.1.0-beta.2-image-third-party-sources.tar.gz` for the separately shipped
-image libraries. That archive contains their exact upstream source versions,
-build recipes, patches, licenses and hashes. Third-party modification, replacement
-and relinking rights are not restricted by the proprietary evaluation terms.
+`Killshot-0.1.0-beta.3-image-third-party-sources.tar.gz` for the separately shipped
+image libraries. It contains upstream sources, build recipes, patches, licenses
+and hashes. Third-party modification, replacement and relinking rights are not
+restricted by the proprietary evaluation terms.

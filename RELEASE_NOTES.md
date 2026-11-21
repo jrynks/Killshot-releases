@@ -1,21 +1,23 @@
-# Killshot v0.1.0-beta.2
+# Killshot v0.1.0-beta.3
 
 **Unsigned experimental tester prerelease. Not production-qualified. Formal
 legal/privacy and independent Responsible AI launch reviews remain pending.**
 
-## Changed since beta.1
+## Changed since beta.2
 
-- Bundle Killshot for VS Code 0.1.3. Remove the deprecated `@killshot` chat
-  participant that the current Copilot harness rejects; retain supported project
-  tools, authenticated MCP and the live-context document reader.
-- Keep automatic verified VSIX installation for new local profiles and bundled
-  updates for previously enrolled profiles. Use normal Copilot Agent chat with
-  `#killshotProjects`, `#killshotReadProject` and `#killshotSearchProject`.
-  If the old chat entry remains, save your work and restart VS Code.
-- Include the latest project-peer collaboration and optional VS Code-backed AI
-  sharing changes from mainline.
-- Clarify extension setup, sharing data flows and the unresolved Windows
-  workspace-service startup report. No speculative storage/recovery fix is included.
+- **Workshop canvases:** child-note arrows use clear straight lanes, including
+  off-center openings. When a card blocks the way, the router prefers fewer
+  bends. Notes stay in place; unavoidable crossings still have line bridges.
+- **Artemis Tour:** 22 brief stops in five chapters, with optional details,
+  saved-stop resume and a model/safety readiness check before the first project.
+- **Settings and skills:** horizontal section tabs, grouped controls and a
+  **Change model** shortcut. The Skills library shows each instruction once in a
+  numbered step path. Model and consent drafts are retained across section changes.
+- **Linked accounts:** eligible ChatGPT accounts and experimental, unofficial
+  SuperGrok / X Premium+ device sign-in. Pending sign-in prompts survive refresh;
+  project verification uses the linked account rather than the API-key path.
+  Automatic model selection preserves manual choices; applying a primary
+  connection does not turn on fallback. No live plan or quota is guaranteed.
 
 ## Included workflows
 
@@ -29,15 +31,15 @@ live VS Code coding workspace. This beta brings together:
 - Chat, Swarm and Assemble for model-assisted product work and conversations.
 - Recording/source review, interruption recovery and permission-controlled sharing.
 - Encrypted local storage, separate recovery keys and portable project backups.
-- VS Code as the primary model connection, optional consented provider fallback,
+- VS Code and linked primary connections, optional consented provider fallback,
   and a distinct, separately consented safety evaluator.
 
 ## Downloads
 
-- `Killshot-0.1.0-beta.2-win-x64.exe`
-- `Killshot-0.1.0-beta.2-linux-x86_64.AppImage`
+- `Killshot-0.1.0-beta.3-win-x64.exe`
+- `Killshot-0.1.0-beta.3-linux-x86_64.AppImage`
 - `SHA256SUMS.txt` and required redistribution notices/materials.
-- `Killshot-0.1.0-beta.2-image-third-party-sources.tar.gz` with the image libraries'
+- `Killshot-0.1.0-beta.3-image-third-party-sources.tar.gz` with the image libraries'
   upstream sources, build recipes, patches and licenses.
 
 Only Windows x64 and Linux x64 are in this tester release. Packages are unsigned.
@@ -47,12 +49,9 @@ claimed. Unsigned packages may trigger protection warnings. Verify
 the release origin and hashes, and do not disable OS or organizational protections.
 Checksums are not publisher authentication.
 
-The Linux binary uses the Ubuntu 24.04 runtime baseline. Older distributions may
-not load its native components.
-
 ## Setup, updates and limits
 
-For your own model connection, configure VS Code access and a different safety-check
+For your own connection, configure a primary model and a different safety-check
 model. Peers can join without a local model configuration. Hosted generation
 and evaluation can cost money and receive authorized project evidence. A safety
 pass does not prove accuracy. Additional local voice/transcription models download separately;
@@ -63,8 +62,9 @@ Linux also needs permitted user namespaces; Ubuntu 24.04 may require an
 administrator-approved AppArmor profile for this AppImage. Killshot refuses
 disabled Chromium sandboxing rather than silently bypassing it.
 
-**Known issue:** Microsoft Foundry appears in the primary connection picker, but
-the runtime still rejects it as primary. Use VS Code as primary for this beta.
+Linked account support depends on provider terms, plan and model availability;
+the SuperGrok subscription route is unofficial and distinct from xAI API-key billing.
+Never post device codes, account identifiers or tokens in public issues.
 
 **Unresolved tester report:** **Workspace locked / The local service stopped**
 on Windows is not diagnosed or claimed fixed by this release. The VS Code

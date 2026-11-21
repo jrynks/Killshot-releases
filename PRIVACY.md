@@ -18,8 +18,13 @@ hosts. Those hosts receive ordinary connection/request metadata.
 
 ## What can leave your device
 
-- **Your primary VS Code connection and model service:** authorized prompts, project/source
+- **Your primary connection and model service (including VS Code or a linked account):** authorized prompts, project/source
   evidence, images or frames, tool context and generated responses.
+- **Optional account linking:** the selected provider handles sign-in and receives
+  ordinary authorization, model-list and usage requests. Account grants and tokens
+  are stored in the encrypted local vault. Linked ChatGPT uses eligible plan quota;
+  the unofficial SuperGrok subscription route may be denied or revoked. Never
+  share one-time codes, tokens or screenshots containing them in public support.
 - **Your separately consented safety evaluator:** task evidence and proposed
   output/tool arguments, plus images when separately authorized.
 - **Optional fallback models, image services, JEV, MCP/plugins and connected
